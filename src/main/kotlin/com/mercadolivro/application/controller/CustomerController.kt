@@ -1,10 +1,10 @@
-package com.mercadolivro.controller
+package com.mercadolivro.application.controller
 
-import com.mercadolivro.controller.request.PostCustomerRequest
-import com.mercadolivro.controller.request.PutCustomerRequest
-import com.mercadolivro.model.CustomerModel
-import com.mercadolivro.extension.convertToCustomerModel
-import com.mercadolivro.service.CustomerService
+import com.mercadolivro.application.controller.request.PostCustomerRequest
+import com.mercadolivro.application.controller.request.PutCustomerRequest
+import com.mercadolivro.application.model.CustomerModel
+import com.mercadolivro.application.extension.convertToCustomerModel
+import com.mercadolivro.application.service.CustomerService
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
 
